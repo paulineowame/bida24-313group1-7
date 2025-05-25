@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Food Archives</title>
+        <!--Bootstrap CSS-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+     <body>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">The Food Archives</a>
+            </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <ul class="navbar-nav">
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="culinaryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Culinary Categories</a>
+                            <ul class="dropdown-menu" aria-labelledby="culinaryDropdown">
+                                <li><a class="dropdown-item" href="breakfastlist.html">Breakfast Delights</a></li>
+                                <li><a class="dropdown-item" href="dessertlist.html">Sweet Tooth</a></li>
+                                <li><a class="dropdown-item" href="beverage.html">Beverage Bliss</a></li>
+                                <li><a class="dropdown-item" href="saladlist.html">Salad Sensations</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contactpage.html">For more Information</a>
+                        </li>
+                    </ul>
+                    <!--Search Bar-->
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--Main Content-->
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="potatorosti.html" class="text-decoration-none">
+                        <div class="card h-100">
+                            <img src="potatorosti.jpeg" class="card-img-top" alt="Potato Rosti">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Potato Rosti</h5>
+                                <button class="btn btn-primary mt-2">View Recipe</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="toastroll.html" class="text-decoration-none">
+                        <div class="card h-50">
+                            <img src="toastroll.jpg" class="card-img-top" alt="Toast Roll">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Toast Roll</h5>
+                                <button class="btn btn-primary mt-2">View Recipe</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <footer class="footer-container">&copy; <span id="currentYear"></span> Food Archives</footer>
+        <!-- Script moved to external file -->
+        <!--Bootstrap JSand dependencies-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
