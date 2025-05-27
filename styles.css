@@ -1,8 +1,13 @@
 body {
     color: black; 
-    background-color: aqua;
     font-family: lato, sans-serif;
     font-size: 1em;
+    background-image: url(anime\ cooking\ aesthetic.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 nav {
     border:3px solid rgb(200, 16, 16);
@@ -44,8 +49,9 @@ header {
     margin: 10px;
 }
 .recipe-img {
-    width: 100%;
-    height: 200px;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
     object-fit: cover;
 }
 .card-title {
