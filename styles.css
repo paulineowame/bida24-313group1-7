@@ -2,7 +2,7 @@ body {
     color: black; 
     font-family: lato, sans-serif;
     font-size: 1em;
-    background-image: url(anime\ cooking\ aesthetic.jpeg);
+    background-image: url(download.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -12,8 +12,10 @@ body {
 nav {
     border:3px solid rgb(200, 16, 16);
     margin: 0% auto;
-    float:left;
-    width: 50%;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    height: fit-content;
     background-color: rgb(0, 166, 255);
     color: white;
     font-family: lato, sans-serif;
