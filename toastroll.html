@@ -14,33 +14,29 @@
     </head>
     <body>
         <!--Navigation bar-->   
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg custom-navbar">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">The Food Archives</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html">The Food Archives</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <!-- Collapsible Dropdown -->
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="culinaryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Culinary Categories
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="culinaryDropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Culinary Categories</a>
+                  <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="breakfastlist.html">Breakfast Delights</a></li>
                     <li><a class="dropdown-item" href="dessertlist.html">Sweet Tooth</a></li>
                     <li><a class="dropdown-item" href="beverage.html">Beverage Bliss</a></li>
                     <li><a class="dropdown-item" href="saladlist.html">Salad Sensations</a></li>
                   </ul>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">For more Information</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
               </ul>
+            </div>
+          </div>
+        </nav>
               <!--Search Bar-->
               <form class="d-flex ms-auto" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -49,6 +45,7 @@
             </div>
           </div>
         </nav>
+        <!--Main Content-->
         <h1 class="text-center">Toast Roll</h1>
         <div class="container">
             <div class="row justify-content-center">
