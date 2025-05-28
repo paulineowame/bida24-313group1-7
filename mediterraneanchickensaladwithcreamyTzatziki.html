@@ -56,47 +56,98 @@
                     <img src="mediterranean_chicken_salad.jpg" alt="Mediterranean Chicken Salad" class="img-fluid">
                 </div>
                 <div class="col-md-6">
-                    <h2>Ingredients</h2>
+                  <h2>Ingredients</h2>
                     <ul>
-                        <p>FOR THE CHICKEN</p>
-                        <li>2 boneless, skinless chicken breasts</li>
-                        <li>1 tbsp olive oil</li>
-                        <li>1 tsp dried oregano</li>
-                        <li>1 tsp garlic powder</li>
-                        <li>Juice of one lemon</li>
-                        <li>Salt and pepper to taste</li>
+                      <p>FOR THE CHICKEN</p>
+                      <li>2 boneless, skinless chicken breasts</li>
+                      <li>1 tbsp olive oil</li>
+                      <li>1 tsp dried oregano</li>
+                      <li>1 tsp garlic powder</li>
+                      <li>Juice of one lemon</li>
+                      <li>Salt and pepper to taste</li>
 
-                        <p>FOR THE SALAD</p>
-                        <li>4 cups mixed greens(argula, spinach, or lettuce)</li>
-                        <li>1/2 cup cherry tomatoes, halved</li>
-                        <li>1/4 cucumber sliced</li>
-                        <li>1/4 cup Kalamata olives</li>
-                        <li>1/4 cup red onion, thinly sliced</li>
-                        <li>1/4 cup crumbled feta cheese</li>
+                      <p>FOR THE SALAD</p>
+                      <li>4 cups mixed greens(argula, spinach, or lettuce)</li>
+                      <li>1/2 cup cherry tomatoes, halved</li>
+                      <li>1/4 cucumber sliced</li>
+                      <li>1/4 cup Kalamata olives</li>
+                      <li>1/4 cup red onion, thinly sliced</li>
+                      <li>1/4 cup crumbled feta cheese</li>
 
-                        <p>FOR THE CREAMY TZATZIKI SAUCE</p>
-                        <li>1/2 cup greek yoghurt</li>
-                        <li>1/2 cucumber, grated and squeezed to remove excess moisture</li>
-                        <li>1 garlic clove, minced</li>
-                        <li>1 tbsp fresh dill, chopped</li>
-                        <li>1 tbsp fresh lemon juice</li>
-                        <li>1 tbsp olive oil</li>
-                        <li>Salt the pepper to taste</li>
+                      <p>FOR THE CREAMY TZATZIKI SAUCE</p>
+                      <li>1/2 cup greek yoghurt</li>
+                      <li>1/2 cucumber, grated and squeezed to remove excess moisture</li>
+                      <li>1 garlic clove, minced</li>
+                      <li>1 tbsp fresh dill, chopped</li>
+                      <li>1 tbsp fresh lemon juice</li>
+                      <li>1 tbsp olive oil</li>
+                      <li>Salt the pepper to taste</li>
                     </ul>
-                    <h2>Instructions</h2>
+                  <h2>Instructions</h2>
                     <ul>
-                        <p>FOR THE CHICKEN</p>
-                        <li>Preheat a grill or Skillet to medium-high heat.</li>
-                        <li>Season the chicken breasts with olive oil, dried oregano, garlic powder, salt, pepper, and lemon juice.</li>
-                        <li>Grill or cook the chichen for 6-7 minutes per side, or until fully cooked and golden brown.</li>
-                        <li>Remove from heat and let it rest for 5 minutes before slicing.</li>
+                      <p>FOR THE CHICKEN</p>
+                      <li>Preheat a grill or Skillet to medium-high heat.</li>
+                      <li>Season the chicken breasts with olive oil, dried oregano, garlic powder, salt, pepper, and lemon juice.</li>
+                      <li>Grill or cook the chichen for 6-7 minutes per side, or until fully cooked and golden brown.</li>
+                      <li>Remove from heat and let it rest for 5 minutes before slicing.</li>
 
-                        <p>FOR THE SALAD</p>
-                        <li>In a small bowl mix the greek yoghurt, grated cucumber, minced garlic, fresh dill, lemon juice, olive oil, salt, and pepper.</li>
-                        <li>Stir until well combined and set aside.</li>
+                      <p>FOR THE SALAD</p>
+                      <li>In a small bowl mix the greek yoghurt, grated cucumber, minced garlic, fresh dill, lemon juice, olive oil, salt, and pepper.</li>
+                      <li>Stir until well combined and set aside.</li>
 
-                        <p>ASSEMBLY</p>
-                        <li>In a large bowl, toss the mixed greens, cherry tomatoes, cucumber slices, kalamata olives, and red onion together.</li>
-                        <li>Top the salad with the sliced grilled chicken and crumbled feta cheese.</li>
-                        <li>Drizzle with the homemade tzatziki sauce and serve immediately</li>
+                      <p>ASSEMBLY</p>
+                      <li>In a large bowl, toss the mixed greens, cherry tomatoes, cucumber slices, kalamata olives, and red onion together.</li>
+                      <li>Top the salad with the sliced grilled chicken and crumbled feta cheese.</li>
+                      <li>Drizzle with the homemade tzatziki sauce and serve immediately</li>
                     </ul>
+                </div>
+            </div>
+        </div> <!--footer-->
+        <footer class="footer-container">&copy; <span id="currentYear"></span> Food Archives</footer>
+        <script>
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
+        <!--Bootstrap JSand dependencies-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+        <!-- Add this script before </body> -->
+        <script>
+        // Define keywords and their corresponding pages
+        const searchMap = {
+            // Categories
+            "breakfast": "breakfastlist.html",
+            "breakfast delights": "breakfastlist.html",
+            "dessert": "dessertlist.html",
+            "sweet tooth": "dessertlist.html",
+            "beverage": "beverage.html",
+            "beverage bliss": "beverage.html",
+            "salad": "saladlist.html",
+            "salad sensations": "saladlist.html",
+            // Recipes (add more as needed)
+            "potato rosti": "potatorosti.html",
+            "toast roll": "toastroll.html",
+            "orange posset": "orangeposset.html",
+            "carrot balls": "carrotballs.html",
+            "outer-galaxy kitty": "pussyfromanothergalaxy.html",
+            "mediterranean chicken salad": "mediterraneanchickensaladwithcreamyTzatziki.html"
+        };
+
+        // Listen for form submission
+        document.querySelector('form[role="search"]').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const query = this.querySelector('input[type="search"]').value.trim().toLowerCase();
+            let found = false;
+            for (const key in searchMap) {
+                if (query.includes(key)) {
+                    window.location.href = searchMap[key];
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) {
+                alert("No matching recipe or category found.");
+            }
+        });
+        </script>
+    </body>
+</html>
