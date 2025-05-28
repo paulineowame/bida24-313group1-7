@@ -1,5 +1,5 @@
 body {
-    color: black; 
+    color: rgb(253, 122, 122); 
     font-family: lato, sans-serif;
     font-size: 1em;
     background-image: url(download.jpeg);
@@ -84,4 +84,9 @@ header {
         color: #000;
         padding: 10px 0 0 0;
     }
+}
+p {
+    font-family: lato, sans-serif;
+    font-size: 1em;
+    color:rgb(56, 56, 253)
 }
